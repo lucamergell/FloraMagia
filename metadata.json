@@ -1,0 +1,6 @@
+{
+  "name": "Flora Magia - 24/7 Flower Shop",
+  "description": "24/7 premium flower shop and delivery service in Tbilisi, Georgia at 1 University St.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
