@@ -1,7 +1,6 @@
 import React from 'react';
 import { Phone, Clock, MapPin, Truck, ShieldCheck, ArrowRight, Sparkles, Heart } from 'lucide-react';
 import { Language } from '../types';
-import heroImg from '../assets/images/flora_magia_hero_1786492681081.jpg';
 import storefrontImg from '../assets/images/flora_magia_storefront_1786492681081.jpg';
 import logoImg from '../assets/images/floramagia.jpg';
 import flower3dImg from '../assets/images/3d_floating_flower_1786529114090.jpg';
@@ -208,7 +207,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, setLang, onOpenOrderModal }) =
             <div className="relative mx-auto max-w-md bg-white p-3 rounded-t-[3rem] rounded-b-3xl shadow-xl border border-pink-200/80 transform lg:rotate-1 hover:rotate-0 transition-transform duration-500">
               <div className="overflow-hidden rounded-t-[2.5rem] rounded-b-2xl aspect-[4/5] relative group">
                 <img
-                  src={heroImg}
+                  src="https://scontent.ftbs5-2.fna.fbcdn.net/v/t51.82787-15/731081676_18133644772597153_4550266233556773579_n.jpg?stp=dst-jpegr_tt6&cstp=mx3024x3024&ctp=s3024x3024&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eiBe2kO1YK8Q7kNvwFlpq1s&_nc_oc=Adqys3labP2xakQCEW5HxCQBt5lfcwwCtSscfFhgjNq0OutzvrE6BO-Dk1uNvUy8LzI&_nc_zt=23&se=-1&_nc_ht=scontent.ftbs5-2.fna&_nc_gid=va-cQYXgmydZ2L6GX4S0_A&_nc_ss=7b2a8&oh=00_AQFmfIyu-Hly4z6D7r5Q_hzqMd5hkYZortawmBR97KfR9w&oe=6A82223E"
                   alt="Flora Magia Bouquet Showcase"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
