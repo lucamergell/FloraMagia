@@ -90,11 +90,11 @@ export const FeaturedCatalog: React.FC<FeaturedCatalogProps> = ({ lang, onSelect
                   </h3>
                 </div>
 
-                <div className="pt-3 border-t border-pink-100 flex items-center justify-between mt-3">
+                <div className="pt-3 border-t border-pink-100 flex flex-col sm:flex-row sm:items-center justify-between mt-3 gap-2.5 sm:gap-0">
                   <span className="text-lg font-medium text-[#3c101e]">
                     {item.priceGel} ₾
                   </span>
-                  <button className="bg-[#3c101e] group-hover:bg-[#52182c] text-white text-xs font-bold px-3 py-1.5 rounded-xl transition-colors cursor-pointer">
+                  <button className="w-full sm:w-auto bg-[#3c101e] group-hover:bg-[#52182c] text-white text-xs font-bold px-3 py-2 sm:py-1.5 rounded-xl transition-colors cursor-pointer text-center">
                     {isKa ? 'ნახვა' : 'View'}
                   </button>
                 </div>
@@ -158,7 +158,7 @@ export const FeaturedCatalog: React.FC<FeaturedCatalogProps> = ({ lang, onSelect
                   </p>
                 </div>
 
-                <div className="pt-4 border-t border-rose-100 flex items-center justify-between mt-4">
+                <div className="pt-4 border-t border-rose-100 flex flex-col sm:flex-row sm:items-center justify-between mt-4 gap-3 sm:gap-0">
                   <div className="flex items-baseline space-x-2">
                     <span className="text-xl font-medium text-rose-700">
                       {item.priceGel} ₾
@@ -169,8 +169,8 @@ export const FeaturedCatalog: React.FC<FeaturedCatalogProps> = ({ lang, onSelect
                       </span>
                     )}
                   </div>
-                  <button className="bg-rose-700 group-hover:bg-rose-800 text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors cursor-pointer">
-                    {isKa ? 'ინფორმაცია' : 'More Info'}
+                  <button className="w-full sm:w-auto bg-rose-700 group-hover:bg-rose-800 text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors cursor-pointer text-center">
+                    {isKa ? 'ნახვა' : 'More Info'}
                   </button>
                 </div>
               </div>
@@ -246,11 +246,11 @@ export const FeaturedCatalog: React.FC<FeaturedCatalogProps> = ({ lang, onSelect
                   </p>
                 </div>
 
-                <div className="pt-4 border-t border-pink-100 flex items-center justify-between mt-4">
+                <div className="pt-4 border-t border-pink-100 flex flex-col sm:flex-row sm:items-center justify-between mt-4 gap-3 sm:gap-0">
                   <span className="text-xl font-medium text-[#3c101e]">
                     {item.priceGel} ₾
                   </span>
-                  <button className="bg-[#3c101e] group-hover:bg-[#52182c] text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors cursor-pointer">
+                  <button className="w-full sm:w-auto bg-[#3c101e] group-hover:bg-[#52182c] text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors cursor-pointer text-center">
                     {isKa ? 'დეტალები' : 'More Info'}
                   </button>
                 </div>

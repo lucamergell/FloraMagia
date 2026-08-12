@@ -95,14 +95,14 @@ export const FlowerDetailModal: React.FC<FlowerDetailModalProps> = ({
               <Clock className="w-4 h-4 text-pink-600 shrink-0" />
               <span>
                 {isKa
-                  ? 'შეკვეთის მისაღებად დარეკეთ ტელეფონზე'
+                  ? 'შესაკვეთად დარეკეთ ტელეფონზე'
                   : 'To place an order, call our florist directly'}
               </span>
             </div>
             <p className="text-xs text-[#593b47] leading-relaxed">
               {isKa
-                ? 'ჩვენი ფლორისტი მიიღებს თქვენს შეკვეთას, მოგაწვდით თაიგულის რეალურ ფოტოს და კურიერი სწრაფად ჩააბარებს ადრესატს თბილისში.'
-                : 'Our florist will confirm your request, send a live photo of the bouquet on WhatsApp, and dispatch our express courier for fast delivery.'}
+                ? 'ჩვენი ფლორისტი მიიღებს თქვენს შეკვეთას და კურიერი სწრაფად ჩააბარებს ადრესატს თბილისში.'
+                : 'Our florist will confirm your request and dispatch our express courier for fast delivery.'}
             </p>
           </div>
 
