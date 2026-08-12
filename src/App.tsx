@@ -51,7 +51,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#fff8fa] text-[#2b141e] font-sans antialiased relative selection:bg-pink-200 selection:text-pink-900 overflow-x-hidden">
+    <div className="min-h-screen bg-[#fff8fa] text-[#2b141e] font-sans antialiased relative selection:bg-pink-200 selection:text-pink-900 overflow-clip">
       <AnimatePresence>
         {showSplash && <SplashScreen />}
       </AnimatePresence>

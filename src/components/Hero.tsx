@@ -220,7 +220,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, setLang, onOpenOrderModal }) =
                 {/* Bottom Overlay Label inside Frame */}
                 <div className="absolute bottom-4 left-4 right-4 text-white p-3 bg-white/20 backdrop-blur-md rounded-xl border border-white/30">
                   <p className="text-xs font-semibold">
-                    {isKa ? 'თითოეული თაიგული იწყობა სიყვარულით' : 'Crafted with passion by master florists'}
+                    {isKa ? 'თითოეული თაიგული იწყობა სიყვარულით' : 'Crafted with passion'}
                   </p>
                   <p className="text-[10px] text-pink-100">
                     {isKa ? 'უნივერსიტეტის #1 • საბურთალო' : '1 University St • Saburtalo, Tbilisi'}
